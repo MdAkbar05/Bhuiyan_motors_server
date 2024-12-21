@@ -1,0 +1,123 @@
+[
+    {
+      name: "V8 Engine Block",
+      description: "High-performance V8 engine block for muscle cars.",
+      price: 850,
+      category: "Engine",
+      brand: "Engine Masters",
+      inStock: true,
+      quantityAvailable: 5,
+      imageUrl: "/images/v8-engine.jpg",
+      ratings: 4.7,
+      numReviews: 120
+    },
+    {
+      name: "Automatic Transmission Kit",
+      description: "Smooth shifting transmission kit for high torque vehicles.",
+      price: 550,
+      category: "Transmission",
+      brand: "TransTech",
+      inStock: true,
+      quantityAvailable: 8,
+      imageUrl: "/images/transmission-kit.jpg",
+      ratings: 4.5,
+      numReviews: 78
+    },
+    {
+      name: "Ceramic Brake Pads",
+      description: "Long-lasting brake pads for efficient braking.",
+      price: 120,
+      category: "Brakes",
+      brand: "BrakeCo",
+      inStock: true,
+      quantityAvailable: 50,
+      imageUrl: "/images/brake-pads.jpg",
+      ratings: 4.3,
+      numReviews: 56
+    },
+    {
+      name: "Heavy Duty Shock Absorbers",
+      description: "Sturdy shock absorbers for off-road performance.",
+      price: 300,
+      category: "Suspension",
+      brand: "Suspension Pros",
+      inStock: false,
+      quantityAvailable: 0,
+      imageUrl: "/images/shock-absorbers.jpg",
+      ratings: 4.8,
+      numReviews: 98
+    },
+    {
+      name: "High-Power Alternator",
+      description: "Efficient alternator for heavy-duty power needs.",
+      price: 180,
+      category: "Electrical",
+      brand: "ElectroParts",
+      inStock: true,
+      quantityAvailable: 15,
+      imageUrl: "/images/alternator.jpg",
+      ratings: 4.4,
+      numReviews: 40
+    },
+    {
+      name: "Premium Leather Seat Cover",
+      description: "Luxury leather seat covers for enhanced comfort.",
+      price: 200,
+      category: "Interior",
+      brand: "LuxSeats",
+      inStock: true,
+      quantityAvailable: 20,
+      imageUrl: "/images/leather-seat.jpg",
+      ratings: 4.6,
+      numReviews: 70
+    },
+    {
+      name: "Chrome Bumper Guard",
+      description: "Stainless steel bumper guard with chrome finish.",
+      price: 90,
+      category: "Exterior",
+      brand: "Exterior Armor",
+      inStock: true,
+      quantityAvailable: 30,
+      imageUrl: "/images/bumper-guard.jpg",
+      ratings: 4.5,
+      numReviews: 34
+    },
+    {
+      name: "Engine Oil Filter",
+      description: "High-efficiency oil filter for clean engine oil.",
+      price: 20,
+      category: "Engine",
+      brand: "Engine Care",
+      inStock: true,
+      quantityAvailable: 100,
+      imageUrl: "/images/oil-filter.jpg",
+      ratings: 4.2,
+      numReviews: 150
+    },
+    {
+      name: "Brake Rotor Set",
+      description: "Durable brake rotors for high-performance vehicles.",
+      price: 250,
+      category: "Brakes",
+      brand: "BrakeCo",
+      inStock: true,
+      quantityAvailable: 25,
+      imageUrl: "/images/brake-rotors.jpg",
+      ratings: 4.6,
+      numReviews: 110
+    },
+    {
+      name: "Spark Plug Set",
+      description: "High-performance spark plugs for increased ignition.",
+      price: 40,
+      category: "Electrical",
+      brand: "SparkMasters",
+      inStock: true,
+      quantityAvailable: 75,
+      imageUrl: "/images/spark-plug.jpg",
+      ratings: 4.3,
+      numReviews: 45
+    }
+  ];
+  

@@ -1,0 +1,48 @@
+------>
+Project API✅
+Model : Project ✅
+projectTitle,
+projectDesc,
+projectLink,
+projectImage,
+
+Get Project [GET] = http://localhost:5000/api/projects✅
+Create Project [POST] = http://localhost:5000/api/projects✅
+Put Project [PUT] = http://localhost:5000/api/projects/id ✅
+Delete Project [DELETE] = http://localhost:5000/api/projects/id✅
+
+----->
+Authorization API✅
+
+Model : User✅
+
+username,
+email,
+password,
+
+Get users [GET] = http://localhost:5000/api/users✅
+User Register [POST] = http://localhost:5000/api/users✅
+Update user [PUT] = http://localhost:5000/api/users✅
+Delete user [DELETE] = http://localhost:5000/api/users✅
+
+Post user Login [POST] = http://localhost:5000/api/user/login
+
+----->
+Review API ✅
+
+Model : Review✅
+
+clientName : string
+clientTitle: string
+rating: number
+review: string
+clientImage: string
+status: { enum: "pending", "approved", "rejected" }
+
+Get all Review [GET] = http://localhost:5000/api/reviews✅
+Create Review [POST] = http://localhost:5000/api/reviews✅
+Delete Review [DELETE] = http://localhost:5000/api/reviews✅
+Approve Review [PUT] = http://localhost:5000/api/reviews/id/approve✅
+Reject Review [put] = http://localhost:5000/api/review/id/reject✅
+
+------>

@@ -1,0 +1,37 @@
+{
+  "name": "portfolio-server",
+  "version": "1.0.0",
+  "description": "For cruid operation of any porfolio website & store with mongodb database",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Md Akbar Hossan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.15",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/http-errors": "^2.0.4",
+    "@types/jsonwebtoken": "^9.0.7",
+    "nodemon": "^3.1.4"
+  }
+}
