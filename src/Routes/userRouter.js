@@ -9,7 +9,7 @@ const {
 
 const userRouter = express.Router();
 
-// http://localhost:5000/api/reviews
+// http://localhost:5000/api/users
 userRouter.get("/", handleGetUsers);
 userRouter.post("/", handleRegisterUser);
 userRouter.post("/verify-user", handleVerifyUser);

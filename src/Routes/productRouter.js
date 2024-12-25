@@ -14,8 +14,10 @@ const productRouter = express.Router();
 
 // Define routes
 productRouter.get("/", getProducts); // Get all products
+
+// Add  a product
+productRouter.post("/", productImageUpload.single("imageUrl"), createProduct);
 // /api/products/search?query=laptop
-productRouter.post("/", productImageUpload.single("imageUrl"), createProduct); // Add  a product
 productRouter.get("/search", handleSearchProducts);
 productRouter.get("/:id", getProductById); // Get product by ID
 productRouter.put("/:id", productImageUpload.single("imageUrl"), updateProduct); // Update a product
