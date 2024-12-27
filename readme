@@ -46,3 +46,16 @@ Approve Review [PUT] = http://localhost:5000/api/reviews/id/approve✅
 Reject Review [put] = http://localhost:5000/api/review/id/reject✅
 
 ------>
+
+
+MONGODB_URL="mongodb+srv://samratakbar667466:samratDB667466@cluster0.6dxjjcl.mongodb.net/bhuiyanMotors"
+
+PORT = 5000
+
+JWT_ACTIVATION_KEY=KHFSDKJFHSFKDSIEVDF
+JWT_ACCESS_KEY=HJDFHSDKAFJWEK
+JWT_REFRESH_KEY=RDJSFKHDSKFS
+JWT_OTP_KEY=DFGSDGDFGDFGRGTRREWY
+
+SMTP_USERNAME=samratakbar667466@gmail.com
+SMTP_PASSWORD=ngevstpgxtaegxka
